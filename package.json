@@ -1,0 +1,17 @@
+{
+  "name": "reddit-rev-agent",
+  "private": true,
+  "packageManager": "pnpm@10.17.0",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "demo": "tsx apps/worker/src/demo.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4",
+    "zod": "^4.1.11"
+  }
+}
